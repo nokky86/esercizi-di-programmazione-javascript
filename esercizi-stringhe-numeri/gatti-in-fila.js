@@ -17,3 +17,10 @@
 
   http://www.imparareaprogrammare.it
 */
+var gatti = 44;
+var gxf = 6;
+var ndf = Math.ceil(gatti/gxf);
+var gcm = gatti%gxf;
+
+console.log("numero di file: "+ndf);
+console.log("gatti mancanti: "+gcm);
